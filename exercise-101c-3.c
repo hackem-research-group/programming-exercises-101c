@@ -2,18 +2,19 @@
 utilizando una funcion.*/
 /*Libreria*/
 #include <stdio.h>
-/*Main funccion*/
-int main(){
-	/*Main funcion*/
+//Función Principal
+int main()
+{
 	int n;
 	printf("Ingresa su numero:\n");
 	scanf("%d",&n);
-	/*Funcion principal*/
-int par(int n);
-	if (n%2==0){
-	printf("El numero el numero %d es par",n);
-}
-	else{
-	printf("El numero %d es impar",n);
+        int par(int n);
+	if (n%2==0)
+	{
+	    printf("El numero el numero %d es par",n);
+        }
+	else
+	{
+	    printf("El numero %d es impar",n);
 	}
 }
