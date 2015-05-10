@@ -1,4 +1,4 @@
-#include<stdio.h>///ESTE CODIGO FUE REALIZADO POR ANDRES Y FABRICIO, LOS SUPER AMIGOS
+#include<stdio.h>
 
 int menu();
 void suma();
